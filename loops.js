@@ -9,5 +9,5 @@ var whileLoop = function(n){
   while(n > 0){
     n--;
   }
-  return n;
+  return "done";
 }
