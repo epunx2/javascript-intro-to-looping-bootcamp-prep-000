@@ -14,5 +14,7 @@ var whileLoop = function(n){
 }
 
 var doWhileLoop = function(array) {
-  
+  do {
+    
+  }while()
 }
