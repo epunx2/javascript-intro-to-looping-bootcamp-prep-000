@@ -7,7 +7,7 @@ var forLoop = function(array){
 
 var whileLoop = function(n){
   while(n > 0){
-    array.push("I am $(i) strange loop${i === 0 ? '' : 's'}.");
+    n--;
   }
-  return array;
+  return n;
 }
