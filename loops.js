@@ -13,8 +13,11 @@ var whileLoop = function(n){
   return "done";
 }
 
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
 var doWhileLoop = function(array) {
   do {
     
-  }while();
+  }while(maybeTrue());
 }
